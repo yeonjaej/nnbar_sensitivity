@@ -1,5 +1,7 @@
 all:
+	g++ limit.cxx hcubature.c -o limit
 	g++ limit_yj.cxx hcubature.c -o limit_yj
 
 clean:
+	rm ./limit
 	rm ./limit_yj
